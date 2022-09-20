@@ -1,7 +1,7 @@
 {
-  "name": "ra-customizable-datagrid",
-  "version": "1.1.0",
-  "description": "",
+  "name": "@themaven-net/ra-customizable-datagrid",
+  "version": "1.0.6",
+  "description": "React Admin plugin for enabling dynamic columns in tables",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel ./src/ -d lib",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fizix-io/ra-customizable-datagrid.git"
+    "url": "git+https://github.com/themaven-net/ra-customizable-datagrid/ra-customizable-datagrid.git"
   },
   "keywords": [
     "React",
@@ -22,15 +22,15 @@
   "author": "FIZIX, @akselsledins",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fizix-io/ra-customizable-datagrid/issues"
+    "url": "https://github.com/themaven-net/ra-customizable-datagrid/ra-customizable-datagrid/issues"
   },
-  "homepage": "https://github.com/fizix-io/ra-customizable-datagrid#readme",
-  "peerDependencies": {
-    "@material-ui/core": "^1.0.0",
-    "@material-ui/icons": "^1.0.0",
-    "react": "^16.4.1",
-    "react-admin": "^2.1.1",
-    "react-dom": "^16.4.1"
+  "homepage": "https://github.com/themaven-net/ra-customizable-datagrid/ra-customizable-datagrid#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "react": "^17.0.2",
+    "react-admin": "^3.17.3",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
